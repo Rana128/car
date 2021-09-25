@@ -1,0 +1,447 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar-light .navbar-toggler {
+    color: #fff019;
+    font-size: 26px;
+    border: none;
+    border: 2px solid #fff019;
+}
+.navbar-light .navbar-toggler:focus{
+    border: 2px solid #fff019;
+    box-shadow: none;
+}
+header{
+    background-color: #273c75;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 17px;
+    text-transform: capitalize;
+    margin-right: 15px;
+    transition: .5s all ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fbc531;
+}
+.navbar-light .navbar-brand {
+    font-size: 24px;
+    color: #fff;
+}
+.navbar-light .navbar-brand span{
+    color: #fff000;
+    font-size: 30px;
+}
+.banner_section img{
+    width: 100%;
+}
+.text_heading h1{
+    margin-top: 100px;
+    text-transform: uppercase;
+    font-size: 80px;
+    font-weight: 600;
+    color: #130f40;
+}
+.btn_explore{
+    padding: 0;
+    padding: 10px 30px;
+    background-color: #273c75;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 18px;
+    transition: .5s all ease-in-out;
+    margin: 25px 0;
+}
+.btn_explore:hover{
+    background-color: #130f40;
+    color: #fbc531;
+}
+.icon_content{
+    background-color: #ccc;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.main_icon{
+    display: flex;
+    background-color: #fff;
+    padding: 14px 20px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border-radius: 5px;
+    transition: .5s all ease-in-out;
+    cursor: pointer;
+}
+.main_icon:hover{
+    background-color: #192a56;
+    border-radius: 5px;
+    transform: translateY(-5px);
+}
+.icon_text h3{
+    color: #fbc531;
+    font-size: 25px;
+    font-weight: 600;
+}
+.icon_text p{
+    color: #000;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.icon i{
+   margin-right: 10px;
+   font-size: 30px;
+   background-color: #eee;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+}
+
+/* popular_car of starts */
+
+.popular_car h1{
+    font-size: 60px;
+    color: #130f40;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.car_shadow{
+    padding: 20px 15px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+.car_img img{
+    width: 100%;
+    transform: scale(1);
+    transition: .5s all ease-in-out;
+}
+.car_img img:hover{
+    transform: scale(.8);
+}
+
+.model h2{
+    font-size: 30px;
+    color: #130f40;
+}
+.model p{
+    font-size: 18px;
+    color: #192a56;
+}
+.model p span{
+    font-size: 20px;
+    color: #fbc531;
+}
+.info ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.info ul li{
+    list-style: none;
+    text-transform: capitalize;
+    color: #130f40;
+    margin-bottom: 25px;
+}
+.btn_check{
+    padding: 0;
+    padding: 8px 20px;
+    background-color: #130f40;
+    color: #fff;
+    text-transform: capitalize;
+}
+.btn_check:hover{
+    background-color: #fbc531;
+    color: #000;
+}
+
+
+
+/* our_services of starts */
+.our_services h1{
+    font-size: 55px;
+    color: #130f40;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.service_shadow{
+    padding: 20px 15px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+.service_shadow:hover{
+    background-color: #130f40;
+    color: #fff;
+}
+.services_icon{
+    color: #130f40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.services_icon i{
+    font-size: 30px;
+    background-color: #fbc531;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.car_selling h3{
+    text-transform: capitalize;
+    font-size: 25px;
+    color: #888;
+    margin-bottom: 10px;
+    margin: 10px 0;
+}
+.car_selling p{
+    color: #666;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+.btn_read{
+    padding: 0;
+    padding: 10px 25px;
+    background-color: #fbc531;
+    text-transform: capitalize;
+    color: #130f40;
+}
+.btn_read:hover{
+    color: #130f40;
+}
+
+
+/* featured_cars of starts */
+
+.featured_cars h1{
+    text-transform: capitalize;
+    color: #130f40;
+    font-size: 55px;
+    font-weight: 600;
+}
+.featured_img img{
+    width:100%;
+    transform: scale(.8);
+    transition: .5s all ease-in-out;
+}
+.featured_img img:hover{
+    transform: scale(1);
+}
+.content h3{
+    font-size: 25px;
+    color: #130f40;
+    text-transform: capitalize;
+    margin-top: 15px;
+}
+.stars i{
+    color: #fbc531;
+    margin-bottom: 15px;
+}
+.content p{
+    color: #130f40;
+    font-size: 20px;
+}
+.btn_featured{
+    padding: 0;
+    padding: 10px 30px;
+    background-color: #ffee80;
+    text-transform: capitalize;
+    color: #130f40;
+    font-size: 18px;
+    transition: .5s all ease-in-out;
+}
+.btn_featured:hover{
+    background-color: #130f40;
+    color: #fff;
+}
+
+/* subscribe_section of starts */
+.subscribe_section{
+    background-image: url(../img/letter-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+}
+.login_area{
+    margin-top: 100px;
+}
+.login_area form input{
+    width: 50%;
+    padding: 15px 15px;
+    border: 2px solid #000;
+    background-color: #130f40;
+    outline: none;
+    border-radius: 30px 0px 0px 30px;
+    caret-color: #fff;
+    color: #fff000;
+}
+.login_area input:focus{
+    border: none;
+    box-shadow: none;
+    border: 2px solid #000;
+}
+.login_area input::placeholder{
+    color: #fff000;
+    font-size: 17px;
+}
+.btn_subscribe{
+    padding: 0;
+    padding: 16px 15px;
+    background: #130f40;
+    color: #eee;
+    border-radius: 0px 30px 30px 0px;
+}
+.btn_subscribe:focus{
+    box-shadow: none;
+}
+.btn_subscribe:hover{
+    color: #eee;
+}
+
+
+
+/* client_review */
+.client_review h1{
+    font-size: 55px;
+    color: #130f40;
+    font-weight: 600;
+}
+.client_review img{
+    border-radius: 50%;
+    width: 40%;
+}
+.client_shadow{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    transition: .5s all ease-in-out;
+    border-radius: 10px;
+    padding: 20px 15px;
+}
+.client_shadow:hover{
+    transform: translateY(-8px);
+    background-color: #130f40;
+    color: #fff;
+    border-radius: 10px;
+}
+.client_content h3{
+    font-size: 25px;
+    color: #ffee80;
+    text-transform: capitalize;
+}
+.client_content p{
+    font-size: 15px;
+    color: #888;
+    margin: 10px 0;
+}
+.client_stars{
+    color: #fbc531;
+}
+
+
+/* contact of starts */
+.contact_form{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    padding: 40px 25px;
+    text-align: center;
+    border-radius: 10px;
+}
+.contact_form form input{
+    padding: 14px 15px;
+    border: none;
+    outline: none;
+    border: 1px solid #888;
+    text-transform: capitalize;
+}
+.contact_form input:focus{
+    box-shadow: none;
+    border: 1px solid #888;
+}
+.contact_form textarea{
+    border: none;
+    border: 1px solid #888;
+    text-transform: capitalize;
+    padding: 14px 15px;
+}
+.contact_form textarea:focus{
+    box-shadow: none;
+    border: 1px solid #888;
+}
+.btn_contact{
+    background-color: #130f40;
+    color: #eee;
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: 600;
+    transition: .5s all ease-in-out
+}
+.btn_contact:hover{
+    color: #eee;
+    background-color: #fbc531;
+}
+.contact_us h1{
+    font-size: 55px;
+    color: #130f40;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.contact_form h3{
+    margin-bottom: 25px;
+    font-size: 35px;
+    color: #130f40;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+
+/* footer_section part of starts */
+.footer_section{
+    padding: 80px 0;
+    background-color: #ffee80;
+}
+
+.branches h3, .links h3, .contact h3, .following h3{
+    color: #130f40;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+.branches ul, .links ul, .contact ul, .following ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.branches ul li, .links ul li, .contact ul li, .following ul li{
+    list-style: none;
+    margin: 10px 0;
+}
+.branches ul li a, .links ul li a, .contact ul li a, .following ul li a{
+    text-decoration: none;
+    color: #130f40;
+    text-transform: capitalize;
+}
+.branches ul li a i, .links ul li a i, .contact ul li a i, .following ul li a i{
+    font-size: 18px;
+    padding-right: 10px;
+    transition: .5s all ease-in-out;
+}
+.branches ul li a:hover i, .links ul li a:hover i, .contact ul li a:hover i, .following ul li a:hover i{
+    padding-right: 20px;
+}
+.footer_section .credit{
+    margin-top: 30px;
+    text-transform: capitalize;
+    text-align: center;
+    color: #130f40;
+}
+.branches{
+
+}
